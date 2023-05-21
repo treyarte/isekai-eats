@@ -1,6 +1,6 @@
 # Isekai Eats
 
-A game for the May GameDev.tv Game Jam 2023
+A game for the May [GameDev.tv](https://itch.io/jam/gamedevtv-jam-2023) Game Jam 2023
 
 ## Game Description
 
