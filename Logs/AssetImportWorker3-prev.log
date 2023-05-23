@@ -1,0 +1,779 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15774 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/trey/Documents/Unity/Isekai Eats
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+53028
+Successfully changed project path to: C:/Users/trey/Documents/Unity/Isekai Eats
+C:/Users/trey/Documents/Unity/Isekai Eats
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6404] Host "[IP] 172.24.160.1 [Port] 0 [Flags] 2 [Guid] 894038315 [EditorId] 894038315 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HB7UM97H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6404] Host "[IP] 172.24.160.1 [Port] 0 [Flags] 2 [Guid] 894038315 [EditorId] 894038315 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-HB7UM97H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 109.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/trey/Documents/Unity/Isekai Eats/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8044 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.012164 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Domain Reload Profiling:
+	ReloadAssembly (712ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (477ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007214 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\trey\Documents\Unity\Isekai Eats\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\trey\Documents\Unity\Isekai Eats\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 79.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1155ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (926ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4238 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (299.9 KB). Loaded Objects now: 4692.
+Memory consumption went from 161.8 MB to 161.5 MB.
+Total: 5.674800 ms (FindLiveObjects: 0.738600 ms CreateObjectMapping: 0.446600 ms MarkObjects: 4.249100 ms  DeleteObjects: 0.238600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 200664.037582 seconds.
+  path: Assets/Sprites/City/tilemap_packed_81.asset
+  artifactKey: Guid(2260226651aae2249abc77bb6ca41286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_81.asset using Guid(2260226651aae2249abc77bb6ca41286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ffd4c312e8bc9468bb78cf9b161588') in 0.074555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/City/tilemap_packed_94.asset
+  artifactKey: Guid(f397e8cb3eef93d4fa4f53b21d3cad25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_94.asset using Guid(f397e8cb3eef93d4fa4f53b21d3cad25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf6ccfd671156e85b2af91c58480327') in 0.015437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/City/tilemap_packed_113.asset
+  artifactKey: Guid(6c6860adb2e76184fa81c3f8f732999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_113.asset using Guid(6c6860adb2e76184fa81c3f8f732999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6648d91d95a79962f99f1e2e213fd9ac') in 0.013734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/City/tilemap_packed_120.asset
+  artifactKey: Guid(8354b52d096b2d64aa7525af70367053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_120.asset using Guid(8354b52d096b2d64aa7525af70367053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a9886e905b69e97866fa80d7c24764') in 0.015361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/City/tilemap_packed_110.asset
+  artifactKey: Guid(b3749dec0da660f468e9538e66f12a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_110.asset using Guid(b3749dec0da660f468e9538e66f12a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac8b21b64ee225f6afe17eae96caa13') in 0.015220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/City/tilemap_packed_103.asset
+  artifactKey: Guid(dd28319d6f472104c93fb06f77aeba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_103.asset using Guid(dd28319d6f472104c93fb06f77aeba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad86db98dd8d93d8fca6fb55511fcaa4') in 0.015684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/City/tilemap_packed_105.asset
+  artifactKey: Guid(948a5ae5ae38f78498351e0febb9be91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_105.asset using Guid(948a5ae5ae38f78498351e0febb9be91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6430f91593d95c5b6764f4d25c3e767') in 0.013485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/City/tilemap_packed_114.asset
+  artifactKey: Guid(ac07a7243a09f724ea6fedf3cd9ab06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_114.asset using Guid(ac07a7243a09f724ea6fedf3cd9ab06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef59e2ec3ae8a5f3c6aea9f246f7a26') in 0.013649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/City/tilemap_packed_125.asset
+  artifactKey: Guid(c865fddf24f5fb64d9242b5640d4c128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_125.asset using Guid(c865fddf24f5fb64d9242b5640d4c128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0c28722c037d43a41915bb588fd5a3') in 0.014941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/City/tilemap_packed_121.asset
+  artifactKey: Guid(a3eccbe392a246a459f78ad342b08744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_121.asset using Guid(a3eccbe392a246a459f78ad342b08744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfc996eb70328afbcfcec7299550d74') in 0.014635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042053 seconds.
+  path: Assets/Sprites/City/tilemap_packed_129.asset
+  artifactKey: Guid(253f8727fed14ac409b2c68e064204aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_129.asset using Guid(253f8727fed14ac409b2c68e064204aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f67b0bb93dbf024a7bf300b8aecdc8f') in 0.014592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/City/tilemap_packed_135.asset
+  artifactKey: Guid(66bbbe9abdf12f74da258d6ed29d613b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_135.asset using Guid(66bbbe9abdf12f74da258d6ed29d613b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9c1a4a5df3aaf30ba23c39d839fa96') in 0.014065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/City/tilemap_packed_143.asset
+  artifactKey: Guid(a270ca7363fe6b94db8e184ddf236ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_143.asset using Guid(a270ca7363fe6b94db8e184ddf236ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984a843563351a80b25e1cd172f37a1c') in 0.013370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/City/tilemap_packed_167.asset
+  artifactKey: Guid(443e749ee0d775849bb0f14cd6721a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_167.asset using Guid(443e749ee0d775849bb0f14cd6721a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36c33c84ca8ed9cd2aa2024bd592ff0') in 0.013214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/City/tilemap_packed_147.asset
+  artifactKey: Guid(f0fd93dc30618cd4385ca66fb0c2b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_147.asset using Guid(f0fd93dc30618cd4385ca66fb0c2b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5006541d8b0f156bbb4c496fe2494a8d') in 0.015041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/City/tilemap_packed_186.asset
+  artifactKey: Guid(96761d14cd6738243afe06f4bb28c578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_186.asset using Guid(96761d14cd6738243afe06f4bb28c578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2f611c4aa12c9c3ff78fef05fe7838') in 0.015991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/City/tilemap_packed_168.asset
+  artifactKey: Guid(0a8964655e32c84459a91b8bc42146a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_168.asset using Guid(0a8964655e32c84459a91b8bc42146a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e933efb46f82e8eb84d4c1673628e8f') in 0.013855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/City/tilemap_packed_138.asset
+  artifactKey: Guid(87c092dba531e8a4dab94cd2acea661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_138.asset using Guid(87c092dba531e8a4dab94cd2acea661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ae6a7457a98ca8f4e1ed4acb12ebb1') in 0.014705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/City/tilemap_packed_172.asset
+  artifactKey: Guid(f461c80fb7348184e8b0ab82e0a7598e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_172.asset using Guid(f461c80fb7348184e8b0ab82e0a7598e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eeed29da5a4f8a1b667cc13825c6048') in 0.016408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/City/tilemap_packed_134.asset
+  artifactKey: Guid(82d2641b356890b4aa0a5e63e60e4824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_134.asset using Guid(82d2641b356890b4aa0a5e63e60e4824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e28998ba3fd493eb24b7eff62d7ac2f') in 0.013998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/City/tilemap_packed_162.asset
+  artifactKey: Guid(c2b4b34f658a60347bdc0aef0db04e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_162.asset using Guid(c2b4b34f658a60347bdc0aef0db04e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fd996e17edcd71efff8699013d2cab') in 0.015662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/City/tilemap_packed_136.asset
+  artifactKey: Guid(2297c8b437dc26b43b7b252a04cb993f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_136.asset using Guid(2297c8b437dc26b43b7b252a04cb993f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8879eda0993261d2805727b3657848e4') in 0.020181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/City/tilemap_packed_153.asset
+  artifactKey: Guid(0187203ba2a90694e94e2f068d94db4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_153.asset using Guid(0187203ba2a90694e94e2f068d94db4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4b336d22909e0aac739c9fbaf4e7aa') in 0.013963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/City/tilemap_packed_150.asset
+  artifactKey: Guid(1f51ce9697db2f0498ab80f0befddeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_150.asset using Guid(1f51ce9697db2f0498ab80f0befddeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c4f175590c14ad65eb88bbbc7321c1') in 0.014855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/City/tilemap_packed_171.asset
+  artifactKey: Guid(892d8e33aa6d77947aaf1eff6151f013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_171.asset using Guid(892d8e33aa6d77947aaf1eff6151f013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d9e5537f0e00bd386bac33bdf41637') in 0.015429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/City/tilemap_packed_179.asset
+  artifactKey: Guid(17a9a4ce258d627479a311ab44dc0832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_179.asset using Guid(17a9a4ce258d627479a311ab44dc0832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca52c9d31606fa370ba4d6c3f2e89795') in 0.015024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021313 seconds.
+  path: Assets/Sprites/City/tilemap_packed_193.asset
+  artifactKey: Guid(d9d18cd09c7ba5a47a8671aee3c958e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_193.asset using Guid(d9d18cd09c7ba5a47a8671aee3c958e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d07222af14c44c3f3e59c075ebd0107') in 0.015393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/City/tilemap_packed_195.asset
+  artifactKey: Guid(7f1493149f94fb542bd4f107d4e13948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_195.asset using Guid(7f1493149f94fb542bd4f107d4e13948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781387ac918af480f75c752780ba1e69') in 0.013929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/City/tilemap_packed_218.asset
+  artifactKey: Guid(f5b38e0d35616f743ad32951953b6ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_218.asset using Guid(f5b38e0d35616f743ad32951953b6ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13f2fa1ec73f2bcce45c803ee6b70a0') in 0.013544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/City/tilemap_packed_225.asset
+  artifactKey: Guid(7c6d504c6f8e77b4a9ba11204ed7eaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_225.asset using Guid(7c6d504c6f8e77b4a9ba11204ed7eaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866353e11a28a94943d02e90f0ca4425') in 0.014356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/City/tilemap_packed_231.asset
+  artifactKey: Guid(2661b70862e1e8947a657d1f3db64697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_231.asset using Guid(2661b70862e1e8947a657d1f3db64697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aecdc7f224d208b651a4b048cbc63eb') in 0.014873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/City/tilemap_packed_252.asset
+  artifactKey: Guid(aa3eaeaf1d21023469c55130258fc046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_252.asset using Guid(aa3eaeaf1d21023469c55130258fc046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bafedb2e17c799485e085d2538aaa46') in 0.014419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/City/tilemap_packed_220.asset
+  artifactKey: Guid(3aae8691e70d5b54a9f66f41341bb1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_220.asset using Guid(3aae8691e70d5b54a9f66f41341bb1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82974f99a44871673f3a4f6634b6ca0') in 0.014768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/City/tilemap_packed_216.asset
+  artifactKey: Guid(7d4ec7b6330737145ab0fd73f188cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_216.asset using Guid(7d4ec7b6330737145ab0fd73f188cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5762654875604963db47fac548ac07c2') in 0.014823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/City/tilemap_packed_233.asset
+  artifactKey: Guid(404aa465ae909644b8009d13b639e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_233.asset using Guid(404aa465ae909644b8009d13b639e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9844d9c73798a326ba38ba964a3b30a0') in 0.014639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/City/tilemap_packed_248.asset
+  artifactKey: Guid(f6e1a7d5c298b76449723d25c4d4abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_248.asset using Guid(f6e1a7d5c298b76449723d25c4d4abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ce11ee24c9b7ce44521f1c03690ba8') in 0.015050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/City/tilemap_packed_251.asset
+  artifactKey: Guid(7517cdca6e2a6244e927ccd5f7e46570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_251.asset using Guid(7517cdca6e2a6244e927ccd5f7e46570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ca840e2e447c9cb3e03931fc3e13ed') in 0.014690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/City/tilemap_packed_224.asset
+  artifactKey: Guid(190db6b8870bef3469d47baf6c93a8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_224.asset using Guid(190db6b8870bef3469d47baf6c93a8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d75e3c02643e6a228bbfdda28d27c9') in 0.014580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/City/tilemap_packed_234.asset
+  artifactKey: Guid(b47429a0925f6e3419e93157bf66be93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_234.asset using Guid(b47429a0925f6e3419e93157bf66be93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d66b8fb2e732afc7b222f6c346b7223') in 0.015610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/City/tilemap_packed_243.asset
+  artifactKey: Guid(f34f1c36ade904c43ba7c5e12db68d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_243.asset using Guid(f34f1c36ade904c43ba7c5e12db68d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b707b1807d00a304732879aaf5b011') in 0.014309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/City/tilemap_packed_219.asset
+  artifactKey: Guid(07f00ba3bd6e7044fa8643673b6b9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_219.asset using Guid(07f00ba3bd6e7044fa8643673b6b9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748e82294aa521fd1e826216fc5731bd') in 0.013476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/City/tilemap_packed_235.asset
+  artifactKey: Guid(be5ff1982d124614a90c18f745462005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_235.asset using Guid(be5ff1982d124614a90c18f745462005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c76c0c27fa6036bbba0d16041570673') in 0.016513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/City/tilemap_packed_261.asset
+  artifactKey: Guid(358c6154dcef92d459420c2ffcb682ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_261.asset using Guid(358c6154dcef92d459420c2ffcb682ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32429c803877ba3611813ad6c2285987') in 0.014940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/City/tilemap_packed_295.asset
+  artifactKey: Guid(73722751435141f4796d8c57169e7090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_295.asset using Guid(73722751435141f4796d8c57169e7090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f395ff05cc8e49d3b88290e358a73c4') in 0.016959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/City/tilemap_packed_299.asset
+  artifactKey: Guid(dfea8181d42368e498cd08004b5671ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_299.asset using Guid(dfea8181d42368e498cd08004b5671ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0f90638ba8e02346048b11bf4f8e3e') in 0.014475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/City/tilemap_packed_314.asset
+  artifactKey: Guid(ea1d32482457c7a4e81b2e3b6792a972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_314.asset using Guid(ea1d32482457c7a4e81b2e3b6792a972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef2f3a70698b1dd2edde69c31a7d3b1') in 0.015100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/City/tilemap_packed_291.asset
+  artifactKey: Guid(0933051002bed8b449f643717e2f69bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_291.asset using Guid(0933051002bed8b449f643717e2f69bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8349b5a2518e30c0ce43f1fb20a0f1') in 0.015888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/City/tilemap_packed_267.asset
+  artifactKey: Guid(ec45dbcca9b400442b2330d3f9f871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_267.asset using Guid(ec45dbcca9b400442b2330d3f9f871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8e4b2209b4ce755005af86a8d87757') in 0.036188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/City/tilemap_packed_276.asset
+  artifactKey: Guid(f1777dc916086af4394bdaa694830790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_276.asset using Guid(f1777dc916086af4394bdaa694830790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01c9978350a6bc87764655779c01320') in 0.014937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/City/tilemap_packed_285.asset
+  artifactKey: Guid(0a8831bd0c7cc804cb345c4e4e2ec3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_285.asset using Guid(0a8831bd0c7cc804cb345c4e4e2ec3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdcafdd6fb71e2bde5670af62559c49') in 0.014694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/City/tilemap_packed_315.asset
+  artifactKey: Guid(971501c78f1e5474d834cac20d0abde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_315.asset using Guid(971501c78f1e5474d834cac20d0abde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb346bba8d5c20d7569ab55bb57f6014') in 0.014934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/City/tilemap_packed_311.asset
+  artifactKey: Guid(eedfb7863c9dd2d41aea1a3a0e8846ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_311.asset using Guid(eedfb7863c9dd2d41aea1a3a0e8846ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b811d16862f3337e24cba58aa999383') in 0.019674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/City/tilemap_packed_305.asset
+  artifactKey: Guid(2e3e8f5bedba65f41b4fa25feba7ff61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_305.asset using Guid(2e3e8f5bedba65f41b4fa25feba7ff61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5651fa5d21444876028b18573863df') in 0.017861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/City/tilemap_packed_328.asset
+  artifactKey: Guid(74d58ec5e4aaeaa42a445f7ede1b612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_328.asset using Guid(74d58ec5e4aaeaa42a445f7ede1b612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916f029bf552e342a69fc1a2b3c524fc') in 0.014981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/City/tilemap_packed_318.asset
+  artifactKey: Guid(15e93b6d2ef52f141af6481d880153a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_318.asset using Guid(15e93b6d2ef52f141af6481d880153a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2d3e90e90270270694cb1f74248c4c') in 0.017452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/City/tilemap_packed_340.asset
+  artifactKey: Guid(a370a89ba390b92479e035d2767da8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_340.asset using Guid(a370a89ba390b92479e035d2767da8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c52ef6448a232e8c9e52f57b1413740') in 0.014625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/City/tilemap_packed_343.asset
+  artifactKey: Guid(21223bceb66f34046bda29a20c609a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_343.asset using Guid(21223bceb66f34046bda29a20c609a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b0addcdb26f3f3b7363c9a2602fc30') in 0.013060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/City/tilemap_packed_367.asset
+  artifactKey: Guid(741617b462a34a644af9a3bddddb1a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_367.asset using Guid(741617b462a34a644af9a3bddddb1a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa679559ce7c9721dc4f30be17202f2') in 0.014280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/City/tilemap_packed_373.asset
+  artifactKey: Guid(0d8d0c1b8cb80dc41bec5370adf779b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_373.asset using Guid(0d8d0c1b8cb80dc41bec5370adf779b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77741127eb2d5149ef2285d28cf89bb') in 0.014351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/City/tilemap_packed_360.asset
+  artifactKey: Guid(1250806e0adb22c40a58ecf5a05b2bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_360.asset using Guid(1250806e0adb22c40a58ecf5a05b2bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6327fb0dbab324cc6bb28f55bcec6f9') in 0.016183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/City/tilemap_packed_387.asset
+  artifactKey: Guid(c2ce655222efd45498edd1ade8a96153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_387.asset using Guid(c2ce655222efd45498edd1ade8a96153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a115534eb589838548ee61ea33db32a0') in 0.014735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/City/tilemap_packed_394.asset
+  artifactKey: Guid(76931fd5c1a76fb49bcaca4f2f6329b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_394.asset using Guid(76931fd5c1a76fb49bcaca4f2f6329b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5350724de00a6442f2772848265b40') in 0.014342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/City/tilemap_packed_346.asset
+  artifactKey: Guid(646a44eb494e3c04fb500f89a4d83a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_346.asset using Guid(646a44eb494e3c04fb500f89a4d83a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67705df024312f3dc0410510020e17b7') in 0.015298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/City/tilemap_packed_317.asset
+  artifactKey: Guid(a1b3cc8f8aa172c4b9dfdb9a4560af0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_317.asset using Guid(a1b3cc8f8aa172c4b9dfdb9a4560af0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b525341a7eaa97e64f7e889c43721a82') in 0.014464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/City/tilemap_packed_378.asset
+  artifactKey: Guid(59a41f4cba39dfe4cabfa154cfb12049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_378.asset using Guid(59a41f4cba39dfe4cabfa154cfb12049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9dfa4d2c7bf041c754ba2c2c46b2ea') in 0.014926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/City/tilemap_packed_362.asset
+  artifactKey: Guid(5b06c7fa29401d346a6b6e73f96e3a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_362.asset using Guid(5b06c7fa29401d346a6b6e73f96e3a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4528179f5edacbd8aa97ad1ff25630') in 0.014976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/City/tilemap_packed_365.asset
+  artifactKey: Guid(efe13e282a1235d49a7744d83339fbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_365.asset using Guid(efe13e282a1235d49a7744d83339fbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704dbb2f958418cf5110b04d1f28528f') in 0.016088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/City/tilemap_packed_370.asset
+  artifactKey: Guid(a4c2971586618c64ca69871a59500759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_370.asset using Guid(a4c2971586618c64ca69871a59500759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064152899009535e5ea38435a27c5c2e') in 0.014715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/City/tilemap_packed_404.asset
+  artifactKey: Guid(ad8685d4707ee904dadfb848de5a97c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_404.asset using Guid(ad8685d4707ee904dadfb848de5a97c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e306bade73ab4ed9ab435e123d5f11bf') in 0.014886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/City/tilemap_packed_419.asset
+  artifactKey: Guid(e3561023efae9a743a8cf1e18e6c23ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_419.asset using Guid(e3561023efae9a743a8cf1e18e6c23ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c21570306616d44e64691afc99a8b16') in 0.014499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/City/tilemap_packed_423.asset
+  artifactKey: Guid(9030430d86edfcb45b58782d8095a950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_423.asset using Guid(9030430d86edfcb45b58782d8095a950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edd1588f9bdcd32401e000ae256e8dc') in 0.015261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/City/tilemap_packed_451.asset
+  artifactKey: Guid(230dea12e0321ac49988e9389eb88f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_451.asset using Guid(230dea12e0321ac49988e9389eb88f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a18c44f7548433b373f405c9515aa9d') in 0.016513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/City/tilemap_packed_448.asset
+  artifactKey: Guid(271b09c2c574908448a51fbd774ed1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_448.asset using Guid(271b09c2c574908448a51fbd774ed1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f6f2fefe21a64a818c4f2443273395') in 0.018270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/City/tilemap_packed_438.asset
+  artifactKey: Guid(fce88c8d5cb0ad146800a295057fcc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_438.asset using Guid(fce88c8d5cb0ad146800a295057fcc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4688b58fe0cf4d1f09778e59ee654c') in 0.015537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/City/tilemap_packed_460.asset
+  artifactKey: Guid(dfa56c1a130c580418dfb8ec344b55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_460.asset using Guid(dfa56c1a130c580418dfb8ec344b55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3703999beeeae2ec85bc1413b93cbc29') in 0.015524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/City/tilemap_packed_420.asset
+  artifactKey: Guid(2edc0893c772e4f488ed8d1dc9fcdd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_420.asset using Guid(2edc0893c772e4f488ed8d1dc9fcdd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3a003f7047772153c6c14abbd16c65') in 0.015662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/City/tilemap_packed_424.asset
+  artifactKey: Guid(deab4a146807f884a9d01b10ff1b5f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_424.asset using Guid(deab4a146807f884a9d01b10ff1b5f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d0428162ccf3c521e7ca67be9a4c9d') in 0.014971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/City/tilemap_packed_431.asset
+  artifactKey: Guid(afe92106d41d6ba408f9141440378172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_431.asset using Guid(afe92106d41d6ba408f9141440378172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac17cdc56488f3292d54562e8afa638') in 0.013402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/City/tilemap_packed_354.asset
+  artifactKey: Guid(93347cb1eac760f41aab2cfbf6977b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_354.asset using Guid(93347cb1eac760f41aab2cfbf6977b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f951a1cdac8b04ec78903a4515553c94') in 0.012826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/City/tilemap_packed_349.asset
+  artifactKey: Guid(1879af6701bcc0b44a8622c36282a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_349.asset using Guid(1879af6701bcc0b44a8622c36282a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4afa72181879bc145c8610312b44e59') in 0.015885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/City/tilemap_packed_449.asset
+  artifactKey: Guid(150a1b8c4d8b64340b4d16095943eede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_449.asset using Guid(150a1b8c4d8b64340b4d16095943eede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abacbb3366c8fce2570789cd210f163') in 0.014859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/City/tilemap_packed_463.asset
+  artifactKey: Guid(64ff66c191ae0454c9ec383541870a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_463.asset using Guid(64ff66c191ae0454c9ec383541870a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3658ad747f0e4a563e42543b4c733c52') in 0.013105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/City/tilemap_packed_470.asset
+  artifactKey: Guid(093d22220d57f98428b41937b6cca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_470.asset using Guid(093d22220d57f98428b41937b6cca5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c536da10a1cd104c2d6a8bf93c143d50') in 0.014710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/City/tilemap_packed_483.asset
+  artifactKey: Guid(95dc5924fa3a4ce479edfbd95bfe7b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_483.asset using Guid(95dc5924fa3a4ce479edfbd95bfe7b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5728e1772e2097988771259a3fccbf0b') in 0.015211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/City/tilemap_packed_469.asset
+  artifactKey: Guid(3d9d567425de6d547a625077784ab71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_469.asset using Guid(3d9d567425de6d547a625077784ab71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33828441b9652222f315247f6f6708f') in 0.013987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/City/tilemap_packed_461.asset
+  artifactKey: Guid(7c57faf93e3fc6740aa120d82c8cc1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_461.asset using Guid(7c57faf93e3fc6740aa120d82c8cc1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c26273654a3382678702d4dffa5cadd') in 0.013728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/City/tilemap_packed_372.asset
+  artifactKey: Guid(788dbdaa8ff53344f99f8d67a7a5e393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_372.asset using Guid(788dbdaa8ff53344f99f8d67a7a5e393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1918b0578004d45eea09961cc3706d60') in 0.014546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/City/tilemap_packed_447.asset
+  artifactKey: Guid(114807bd05698b446ad479bf81e01782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_447.asset using Guid(114807bd05698b446ad479bf81e01782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b43f15b8d489244fafe9808a556f4f') in 0.015472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/City/tilemap_packed_347.asset
+  artifactKey: Guid(19c5a6de384f5b140804b90862c5b0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_347.asset using Guid(19c5a6de384f5b140804b90862c5b0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518ff01f5a144f6082e952ed95a176d0') in 0.014609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/City/tilemap_packed_458.asset
+  artifactKey: Guid(834bb2bea9d60d84787c4de05dc4108c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_458.asset using Guid(834bb2bea9d60d84787c4de05dc4108c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da39d93d2b07c34fa99917b8200e4db') in 0.013731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/City/tilemap_packed_366.asset
+  artifactKey: Guid(77515e12d4605274c848a78903bba957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_366.asset using Guid(77515e12d4605274c848a78903bba957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af46499a997ec516a9bc35206fb0a2a') in 0.015291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/City/tilemap_packed_414.asset
+  artifactKey: Guid(3b117eb9a63e6aa4ba7a6b9d6c128a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_414.asset using Guid(3b117eb9a63e6aa4ba7a6b9d6c128a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34df9d343f0a16944cd9366533fa10d') in 0.015623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/City/tilemap_packed_382.asset
+  artifactKey: Guid(21005df2fcdb4d847a4446ea71cdf294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_382.asset using Guid(21005df2fcdb4d847a4446ea71cdf294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a730eab20c2b5e7b784d60a30b0ca9b4') in 0.017119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/City/tilemap_packed_464.asset
+  artifactKey: Guid(417c8fe5c8f77df4088c4280dd059ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_464.asset using Guid(417c8fe5c8f77df4088c4280dd059ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca89776ddae43385079c84220e53ba9c') in 0.015580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/City/tilemap_packed_478.asset
+  artifactKey: Guid(ee8ab4aed5326844f9b3bd50fa032e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_478.asset using Guid(ee8ab4aed5326844f9b3bd50fa032e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6551f172b3c3dce6a17e05162368da01') in 0.016768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/City/tilemap_packed_255.asset
+  artifactKey: Guid(2e6b04da7ecae584ca902b47fee98154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_255.asset using Guid(2e6b04da7ecae584ca902b47fee98154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9764696a1254bff5bce6bf60abd7aed') in 0.015477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/City/tilemap_packed_272.asset
+  artifactKey: Guid(8544871e894ebd648aa8adf147e158fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_272.asset using Guid(8544871e894ebd648aa8adf147e158fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee2cba3b2e6d7d3f443a77b6a404d70') in 0.015374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/City/tilemap_packed_393.asset
+  artifactKey: Guid(54b02ac56174816439f1cf90ff16ca46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_393.asset using Guid(54b02ac56174816439f1cf90ff16ca46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63010385d8386d90bf57cee72d956f94') in 0.014353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/City/tilemap_packed_259.asset
+  artifactKey: Guid(367adb83e01e4f040bc8f92574c4857a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_259.asset using Guid(367adb83e01e4f040bc8f92574c4857a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ec28a0b32e73794b3bb61f7def654a') in 0.014109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/City/tilemap_packed_264.asset
+  artifactKey: Guid(7104135eac512ea4a93b3878c8423689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_264.asset using Guid(7104135eac512ea4a93b3878c8423689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fb3381c348ad6f7d4f056be0bbf1c9') in 0.016820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/City/tilemap_packed_256.asset
+  artifactKey: Guid(44ee20d0bdf850f46bb80a96cef74385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/City/tilemap_packed_256.asset using Guid(44ee20d0bdf850f46bb80a96cef74385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9eab9bfa030013abd4146c17a48247c') in 0.012043 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
