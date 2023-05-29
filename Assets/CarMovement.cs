@@ -35,6 +35,101 @@ public class CarMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    public void AddEngineForce()
+    {
+        bool isReverse = _reverseInput > 0;
+
+        var directionVelocity = Vector2.Dot(transform.up, rb.velocity);
+
+        if (isReverse)
+        {
+            LimitBackwardAcceleration(directionVelocity);
+        }
+        else
+        {
+            LimitForwardAcceleration(directionVelocity);
+        }
+    }
+    
+
+    public void LimitForwardAcceleration(float velocityVsUp)
+    {
+        // Limit so we cannot go faster than the max speed in the forward direction
+        if (velocityVsUp > maxSpeed && accelerationInput > 0)
+        {
+            return;
+        }
+        
+        // limit so we cannot go faster that the 50% of max speed in reverse direction
+        if (velocityVsUp > -maxSpeed && accelerationInput < 0)
+        {
+            return;
+        }
+
+        //limit so we cannot go faster in any direction while accelerating
+        if (rb.velocity.sqrMagnitude > maxSpeed * maxSpeed && accelerationInput > 0)
+        {
+            return;
+        }
+        
+        if (accelerationInput == 0 || accelerationInput == 0 && _reverseInput == 0)
+        {
+            rb.drag = Mathf.Lerp(rb.drag, 3.0f, Time.fixedDeltaTime * 3);
+        }
+        else
+        {
+            rb.drag = 0;
+        }
+
+        if ( _reverseInput != 0)
+        {
+            return;
+        }
+
+        Vector2 engineForceVector = transform.right * ( accelerationForce * accelerationInput);
+        
+        rb.AddForce(engineForceVector, ForceMode2D.Force);
+    }
+    
+    public void LimitBackwardAcceleration(float velocityVsUp)
+    {
+        // Limit so we cannot go faster than the max speed in the forward direction
+        if (velocityVsUp > maxSpeed && _reverseInput > 0)
+        {
+            return;
+        }
+        
+        // limit so we cannot go faster that the 50% of max speed in reverse direction
+        if (velocityVsUp > -maxSpeed && _reverseInput < 0)
+        {
+            return;
+        }
+
+        //limit so we cannot go faster in any direction while accelerating
+        if (rb.velocity.sqrMagnitude > maxSpeed * maxSpeed && _reverseInput > 0)
+        {
+            return;
+        }
+        
+        if ( _reverseInput == 0)
+        {
+            rb.drag = Mathf.Lerp(rb.drag, 3.0f, Time.fixedDeltaTime * 3);
+        }
+        else
+        {
+            rb.drag = 0;
+        }
+
+        if ( accelerationInput != 0)
+        {
+            return;
+        }
+
+        Vector2 engineForceVector = -transform.right * ( accelerationForce * _reverseInput);
+        
+        rb.AddForce(engineForceVector, ForceMode2D.Force);
+    }
+
     public void ApplyEngineForce()
     {
         //Calculate how much forward we are going in terms of the direction of our velocity
@@ -76,7 +171,6 @@ public class CarMovement : MonoBehaviour
         Vector2 engineForceVector = transform.right * ( accelerationForce * accelerationInput);
         
         rb.AddForce(engineForceVector, ForceMode2D.Force);
-
     }
 
     public void ApplySteering()
@@ -113,8 +207,6 @@ public class CarMovement : MonoBehaviour
     public void OnReverse(InputAction.CallbackContext context)
     {
         _reverseInput = context.ReadValue<float>();
-        
-        Debug.Log(_reverseInput);
     }
     
     public void OnMovement(InputAction.CallbackContext context)
@@ -128,7 +220,8 @@ public class CarMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        ApplyEngineForce();
+        // ApplyEngineForce();
+        AddEngineForce();
         KillOrthogonalVelocity();
         ApplySteering();
     }
